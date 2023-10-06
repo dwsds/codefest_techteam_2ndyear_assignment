@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+.User_info ,.User_reg{
+  background-color:#ebebeb;
+  border-radius: 12px;
+  box-shadow: inset 6px 6px 10px #cbced1, inset -6px -6px 10px #ffffff;
+  padding: 50px;
+  width: 240px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+:root {
+  background-color: #ebebeb;
+}
+
+.h1 {
+  
+  text-align: center; 
+  font-weight: bold;
+  font-size: 24px; 
+  font-family: 'Quicksand', sans-serif;
+  margin-top:180px ;
+  
+}
+.p1 {
+  text-align: center; 
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.user_email,
+.user_pass {
+  width: 90%;
+  margin: 10px 0; 
+  font-weight: bold;
+  padding: 12px;
+  background-color: #ebebeb;
+  border: none;
+  border-radius: 8px;
+  box-shadow: inset 6px 6px 10px #cbced1, inset -6px -6px 10px #ffffff;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.loginButton, .signupButton {
+  background-color:#ebebeb;
+  color: #474c50; 
+  padding: 12px 20px;
+  border: none;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 9px;
+   box-shadow: inset 6px 6px 10px #cbced1, inset -6px -6px 10px #ffffff;
+}
+
+.loginButton:hover, .signupButton:hover {
+  background-color: rgb(228, 228, 228);
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: #393c3f;
+  box-shadow: inset 10px 10px 14px #cbced1, inset -6px -6px 10px #ffffff;
+}
+
+
+.errormsg {
+  color: #e74c3c;
+  font-weight: bold;
+  
+  font-family: 'Quicksand', sans-serif;
+}
+
+.link {
+  color: #3498db;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+

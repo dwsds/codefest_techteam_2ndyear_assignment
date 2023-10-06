@@ -1,0 +1,266 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+.workouts-container {
+
+  background-color:  #ebebeb;
+  padding: 20px;
+  border-radius: 0px;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+
+}
+
+
+.hh1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 29px;
+  margin-bottom: 20px;
+}
+.modload{
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+
+.neumorphic-btn {
+  background-color:#d5ecc5;
+  border: none;
+  color: #313131;
+  font-size: 17px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #b9b9b9, -5px -5px 15px #ffffff; 
+  cursor: pointer;
+  display: block; 
+  margin: 10px auto; 
+  transition: background-color 0.3s ease;}
+
+.neumorphic-btn:hover {
+  background-color:#c6dbb2;
+  ; 
+}
+
+.logout_btn {
+  
+  background-color: #fad8d8;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #b9b9b9, -5px -5px 15px #ffffff;
+  cursor: pointer;
+  display: block;
+  margin: 10px auto;
+  transition: background-color 0.3s ease;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+}
+
+.logout_btn:hover {
+  background-color: #f0b9b9;
+}
+.create-workout-container {
+  background-color: #ebebeb;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1), -10px -10px 20px rgba(255, 255, 255, 0.5); 
+  text-align: center;
+}
+.all{
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 35px;
+  margin-top: 29px;
+}
+.h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 29px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.create-workout-form {
+  background-color: #ebebeb;
+  border-radius: 12px;
+  box-shadow: 8px 8px 16px #cbced1, -8px -8px 16px #ffffff;
+  padding: 39px;
+  width: 240px;
+  margin: 0 auto;
+  margin-top: 40px; 
+  text-align: center;
+}
+
+.create-workout-form label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.title1,.load1,.reps1{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.title, .load, .reps {
+  width: 90%;
+  margin: 10px 0; 
+  padding: 12px;
+  background-color: #ebebeb;
+  border: none;
+  border-radius: 8px;
+  box-shadow: inset 6px 6px 10px #cbced1, inset -6px -6px 10px #ffffff;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+.create-workout-form button[type="submit"] {
+  background-color: #d1eaf3;; 
+  color: #213124; 
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 12px;
+  box-shadow: 5px 5px 10px #b0b4b8, -5px -5px 10px #ffffff; 
+}
+
+.create-workout-form button[type="submit"]:hover {
+  background-color:#b5d2dd; 
+  box-shadow: inset 6px 6px 10px #a7c3ce, inset -6px -6px 10px #cef0fd;;
+  
+}
+  
+
+.success-message {
+  color: green;
+  margin-top: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.workouts-list {
+  list-style: none;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.workout-item {
+  margin: 10px 10px;
+  width: 290px;
+  background: #f0f0f0; 
+  border: 1px solid #e0e0e0; 
+  padding: 10px;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 10px; 
+  box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff; 
+margin-bottom: 20px;
+margin-left: 29px;
+margin-top: 29px;
+}
+
+.delete-button {
+  background-color: #e96e6e;
+box-shadow: 4px 4px 7px #8e928e,-4px -4px 7px #ffffff;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  margin-left: 10px;
+  
+  padding: 7px 12px;
+  cursor: pointer;
+  border-radius: 5px; 
+  margin-top: 10px;
+  font-family: 'Quicksand', sans-serif;
+ 
+  
+  
+}
+.modify-button {
+  background-color: #84af4a;
+box-shadow: 4px 4px 7px #8e928e, -4px -4px 7px #ffffff;
+margin-left: 9x;
+margin-bottom: 7px;
+  color: #fff;
+  border: none;
+  padding: 7px 12px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  
+ 
+}
+
+.delete-button:hover {
+  background-color:#da6565; 
+  box-shadow: inset 4px 4px 7px #c95e5e, inset -4px -4px 7px #ff8e8e;;
+}
+.modify-button:hover {
+  background-color: #759c42;
+  box-shadow: inset 4px 4px 7px #6b8f3c, inset -4px -4px 7px #a2d85b;;
+}
+.success-message{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font: weight 200px;
+  font-size: 17px;
+  margin-top: 40px;
+}
+.savebutton{
+  background-color: #76b8c4;
+  box-shadow: 4px 4px 7px #8e928e, -4px -4px 7px #ffffff;
+  margin-left: 9x;
+  margin-bottom: 10px;
+    color: #fff;
+    border: none;
+    padding: 7px 12px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 12px;
+    margin-top: 16px;
+    
+}
+.savebutton:hover{
+  background-color:#76b8c4; 
+  box-shadow: inset 4px 4px 7px #69a5ad, inset -4px -4px 7px #87d0db;
+}
+.cancelbutton:hover{
+  background-color:#639aa3 ;
+  box-shadow: inset 4px 4px 7px #528086, inset -4px -4px 7px #73aeb8;
+}
+.cancelbutton{
+  background-color: #639aa3;
+  box-shadow: 4px 4px 7px #8e928e, -4px -4px 7px #ffffff;
+  margin-left: 15x;
+  margin-bottom: 7px;
+    color: #fff;
+    border: none;
+    padding: 7px 12px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
